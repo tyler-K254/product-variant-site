@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="product-details.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo purple.png" alt="logo">
+        <h1>ELEGANCE FASHION</h1>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <h2>— PRODUCT DETAILS —</h2>
+            
+            <div class="image-container">
+                <div class="image-background">
+                <img src="images/Pink T-shirt.png" alt="Women's Generic T-Shirt">
+               </div>
+                <div class="color-options">
+                    
+                    <img src="images/Pink T-shirt.png" alt="Red T-Shirt">
+                    <img src="images/Red T-shirt.png" alt="Pink T-Shirt">
+                    <img src="images/Blue T-shirt.png" alt="Blue T-Shirt">
+                    <input type="file" id="imageUpload" style="display: none;" accept="image/*">
+                    <img class="add-icon" src="images/Plus icon.png" alt="add" onclick="document.getElementById('imageUpload').click();">
+                    <!-- Add more color options as needed -->
+                </div>
+            </div>
+            
+            <div class="size-options">
+                <button>XXS</button>
+                <button>XS</button>
+                <button>S</button>
+                <button class="selected">M</button>
+                <button>L</button>
+                <button>XL</button>
+                <button>XXL</button>
+                <button>3XL</button>
+            </div>
+            
+            <div class="product-info">
+                <h3>Womens Generic T-shirt</h3>
+                <p class="price">Ksh. 500</p>
+                <p class="description">Versatile and comfortable staple crafted from 100% breathable cotton. Perfect for both casual and formal settings.</p>
+                <a href="index.html"><button class="view-products-btn">View Products</button></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

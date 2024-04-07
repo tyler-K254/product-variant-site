@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="product-details.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo purple.png" alt="logo">
+        <h1>ELEGANCE FASHION</h1>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <h2>— PRODUCT DETAILS —</h2>
+            
+            <div class="image-container">
+                <div class="image-background">
+                <img src="images/jeans.png" alt="Women's jeans">
+               </div>
+                <div class="color-options">
+                    
+                    <img src="images/jeans.png" alt="Jeans">
+                    <img src="images/Light grey jeans.png" alt="Light Grey jeans">
+                    <img src="images/Black jeans.png" alt="Black jeans">
+                    <input type="file" id="imageUpload" style="display: none;" accept="image/*">
+                    <img class="add-icon" src="images/Plus icon.png" alt="add" onclick="document.getElementById('imageUpload').click();">
+                    <!-- Add more color options as needed -->
+                </div>
+            </div>
+            
+            <div class="size-options">
+                <button>XXS</button>
+                <button>XS</button>
+                <button>S</button>
+                <button class="selected">M</button>
+                <button>L</button>
+                <button>XL</button>
+                <button>XXL</button>
+                <button>3XL</button>
+            </div>
+            
+            <div class="product-info">
+                <h3>Blue Denim Jeans</h3>
+                <p class="price">Ksh. 800</p>
+                <p class="description">Pair of slim-fit jeans with a faded wash and whiskering at the hips. They feature a standard five-pocket design and have a waistband with belt loops.</p>
+                <a href="index.html"><button class="view-products-btn">View Products</button></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
